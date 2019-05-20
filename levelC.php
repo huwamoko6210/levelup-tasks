@@ -1,6 +1,6 @@
 <?php
-$inputScores = trim(fgets(STDIN));
-$scoreArr = str_split($inputScores);
+$inputScore = trim(fgets(STDIN));
+$scoreArr = str_split($inputScore);
 $totalScore = 0;
 
 for($i = 0; $i < count($scoreArr); $i++){
